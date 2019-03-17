@@ -1,0 +1,19 @@
+title:             littestthings
+email:             redshirtgoesaround@gmail.com
+description:       Tiny things that work
+author:            littestthings
+baseurl:           "/"
+url:               "https://littestthings.github.io"
+
+# Social Profiles
+twitter_username:  littestthings
+github_username:   littestthings
+facebook_username: littestthings
+
+# Build settings
+markdown:          kramdown
+paginate:          5
+paginate_path:     "/posts/page:num/"
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
